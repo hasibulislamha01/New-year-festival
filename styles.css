@@ -1,0 +1,331 @@
+
+
+/* General styles are here */
+/* These are the styles that are frequently used */
+body{
+  margin: 30px 100px;
+  overflow-x: hidden;
+}
+.division{
+  margin-top: 150px;
+  width: 100%;
+}
+.theme-color{
+  color: #f00;
+}
+.theme-font{
+  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
+
+}
+.marriweather-font{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Open Sans', sans-serif;  
+  font-family: 'Merriweather', serif;
+
+}
+.x-large-content{
+  font-size: 88px;
+  padding-bottom: 20px;
+}
+.larger-content{
+  font-size: 72px;
+}
+.large-content{
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 48px;
+}
+.small-content{
+  font-size: 24px;
+}
+.center-text{
+text-align: center;
+}
+
+
+
+/* Other styles are given here */
+/* These are the styles that has been used for some specific elements */
+
+
+/* ___________ Top banner styles _______________ */
+
+.top-banner{
+  color: white;
+  background-image: url(resources/Banner\ Image.png);  
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-banner h3{
+  font-size: 32px;
+  margin: 0px;
+}
+.top-banner h1{
+  margin-top: 20px;
+}
+
+
+/* _________ 65% off section __________________ */
+.offer{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-weight: 900;
+}
+.categories{
+  margin-top: 16px;
+}
+
+
+
+/* ______ Welcome to Midnight Party section_______ */
+.welcome{
+  margin-top: 100px;
+  background-image: url(resources/Vectorrr.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+}
+.welcome div h1{
+  margin-top: 80px;
+  margin-left: 100px;
+  font-size: 64px;
+  color: white;
+}
+.welcome div p{
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  color: #fff;
+  width: 550px;
+  
+}
+.welcome div button{
+  margin-left: 100px;
+  margin-bottom: 80px;
+  width: 150px;
+  height: 45px;
+  border: 1px solid goldenrod;
+  border-radius: 5px;
+  background-color: goldenrod;
+  
+}
+.welcome div button:hover{
+  background-color: rgba(218, 165, 32, 0.836);
+}
+#image2024{
+  width: 260px;
+  height: 400px;
+  margin-top: 40px;
+}
+
+
+/* __________ Date and time section______________ */
+.date-time{
+  width: 100%;
+  height: 482px;
+  background-color: rgba(255, 0, 0, 0.10);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.date-time button{
+  background-color: #f00;
+  color: white;
+  font-size: 21px;
+  width: 150px;
+  height: 45px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.date-time button:hover{
+  background-color: rgb(212, 17, 17);
+}
+
+/* _______ New best offer COMING SOON section_______ */
+.new-offer{
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.coming-soon{
+  margin-top: 0px;
+  padding: 0px;
+}
+.new-offer div{
+  width: 393px;
+  margin: 00px 20px;
+}
+.new-offer div p{
+  margin-top: 15px;
+  padding: 0px;
+}
+.new-offer div img{
+  width: 365px;
+  height: 365px;
+  margin-top: 30px;
+}
+#new-2024{
+  width: 140px;
+  height: 140px;
+}
+
+
+/* ________ Holidays Scale section__________ */
+.holiday{
+  background-color: rgba(240, 230, 140, 0.623);
+  height: 500px;
+  border-radius: 10px;
+}
+.holiday h4{
+  margin-top: 100px;
+  padding-top: 70px;
+}
+.holiday h1{
+  margin-top: 30px;
+}
+#holiday-scale{
+  font-size: 20px;
+  line-height: 29px;
+}
+.holiday p{
+  margin: 30px ;
+}
+.flexible-container{
+  display: flex;
+  
+}
+.flexible-container img{
+  width: 345px;
+  height: 400px;
+  margin: 10px;
+}
+.flexible-container img:hover{
+  transform: scale(1.05);
+
+}
+
+
+
+/* __________ Awsome Portfolio Section __________ */
+#awsome{
+  margin: 15px 0px;
+  padding: 0px;
+}
+#our-products{
+  font-size: 20px;
+  width: 1130px;
+   margin-top: 23px;
+   margin-bottom: 48px;
+}
+
+
+/* ________ Newsletter section __________ */
+.newsletter{
+  height: 616px;
+  background-color: rgba(255, 0, 0, 0.247);
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+.newsletter img{
+  margin-top: 80px;
+}
+.newsletter h1{
+  margin-top: 40px;
+}
+.newsletter p{
+  font-size: 20px;
+  margin: 22px 112px;
+  line-height: 32px;
+}
+.user{
+  position: relative;
+  
+}
+#input{
+  padding: 0px;
+  width: 500px;
+  height: 60px;
+  border: 1px solid transparent;
+  border-radius: 0px 30px 30px 0px;
+}
+input::placeholder{
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  padding-left: 50px;
+}
+#Subscribe{
+  margin: 0px;
+  padding: 0px;
+  background-color: #f00;
+  color: white;
+  width: 150px;
+  height: 63px;
+  border: 1px solid #f00;
+  border-radius: 0px 30px 30px 0px;
+  font-size: 20px;
+  font-weight: 600px;
+  position: absolute;
+  right: 0%;
+}
+#subscribe:hover{
+  background-color: rgba(212, 17, 17, 0.781);
+  font-weight: 700;
+}
+
+
+/* __________  Footer section styles __________ */
+#website-footer{
+  padding-left: 0px;
+  margin: 120px 0px 0px -100px;
+  background-color: #070211;
+  color: #FFF;
+  width: 100%;
+  height: 609px;
+  border-radius: 10px;
+  position: absolute;
+  
+}
+.footer-content{
+  margin: 120px 0px 50px 140px ;
+
+}
+.relative{
+  display: flex;
+  position: relative;
+}
+.position-right{
+  position: absolute;
+  right: 20%;
+}
+.line{
+  /* background: rgba(255, 255, 255, 0.15);  */
+  color: darkblue;
+}
+.social{
+  margin-top: 48px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: center;
+}
+.social img{
+  margin: 24px;
+}
+#copyright{
+  margin-left: 140px;
+}
